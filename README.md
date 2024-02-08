@@ -11,7 +11,7 @@ In this project, we use a custom classifier built with TensorFlow/Keras to predi
 - Python 3
 - TensorFlow
 - NumPy
-- pandas
+- Pandas
 
 ## Usage
 
