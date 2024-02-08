@@ -18,5 +18,17 @@ In this project, we use a custom classifier built with TensorFlow/Keras to predi
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/breast_cancer_prediction.git
+   git clone https://github.com/cockles98/breast_cancer_prediction.git
+   ```
+   
+2. Run the train_model.py script to train the model and save it:
+
+   ```bash
+   python train_model.py
+   ```
+
+3. Optionally, modify the test_data and test_labels variables in the evaluate_model.py script with your own test data to evaluate it:
+
+   ``` bash
+   python evaluate_model.py
    ```
