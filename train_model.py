@@ -44,8 +44,8 @@ model.compile(optimizer=model.optimizer,
               metrics=model.metrics)
 
 # Load data
-labels = pd.read_csv('D:\\GitHub Dic\\breast_cancer_prediction\\dataset\\features_dataset.csv')
-target = pd.read_csv('D:\\GitHub Dic\\breast_cancer_prediction\\dataset\\classes_dataset.csv')
+labels = pd.read_csv('D:\\GitHub Dic\\breast_cancer_prediction\\dataset\\features.csv')
+target = pd.read_csv('D:\\GitHub Dic\\breast_cancer_prediction\\dataset\\classes.csv')
 
 # Train the model
 model.fit(labels, target, epochs=1200, batch_size=32, validation_split=0.2)
