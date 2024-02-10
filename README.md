@@ -27,7 +27,8 @@ In this project, we use a custom classifier built with TensorFlow/Keras to predi
    python train_model.py
    ```
 
-3. Optionally, modify the test_data and test_labels variables in the evaluate_model.py script with your own test data to evaluate it:
+3. Optionally, modify the `features` and `classes` variables in the evaluate_model.py script with your own test data to evaluate it:
+   
 
    ``` bash
    python evaluate_model.py
