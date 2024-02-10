@@ -11,10 +11,10 @@ loaded_model.summary()
 loaded_model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
 # Load test data
-test_data = pd.read_csv('D:\\GitHub Dic\\breast_cancer_prediction\\dataset\\labels_dataset.csv')
-test_labels = pd.read_csv('D:\\GitHub Dic\\breast_cancer_prediction\\dataset\\target_dataset.csv')
+features = pd.read_csv('D:\\GitHub Dic\\breast_cancer_prediction\\dataset\\labels_dataset.csv')
+classes = pd.read_csv('D:\\GitHub Dic\\breast_cancer_prediction\\dataset\\target_dataset.csv')
 
 # Evaluate the model
-loss, accuracy = loaded_model.evaluate(test_data, test_labels)
+loss, accuracy = loaded_model.evaluate(features, classes)
 print("Test Loss:", loss)
 print("Test Accuracy:", accuracy)
