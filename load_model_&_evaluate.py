@@ -7,7 +7,7 @@ loaded_model = tf.keras.models.load_model('D:\\GitHub Dic\\breast_cancer_predict
 # Print model summary
 loaded_model.summary()
 
-# Compile the model (if necessary)
+# Compile the model
 loaded_model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
 # Load test data
